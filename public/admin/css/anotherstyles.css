@@ -1,0 +1,42 @@
+
+.search {
+    background-color: transparent;
+    background-image: url(../../img/icon-binoculars.svg );
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    margin: 3px 0;
+    padding: 0 0 0 40px;
+    position: relative;
+    -webkit-transition: 600ms ease, background 400ms ease;
+    transition: 600ms ease, background 400ms ease;
+    width: 0;
+    font-size: 13px;
+    font-family: arial;
+    color: #666;
+    border: 1px solid #f4f3f1 !important;
+}
+
+.search:focus {
+    /* border: 1px solid #3B2BDA !important; */
+    cursor: text;
+    border-radius: 3px;
+    background-color: white;
+    outline: none;
+    margin-left: 10px;
+    min-width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #3B2BDA !important;
+    border-left: 1px solid #3B2BDA !important;
+}
+
+.student-details {
+    max-width: 30%;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+    align-items: center;
+}
